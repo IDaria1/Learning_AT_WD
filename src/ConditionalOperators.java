@@ -1,14 +1,12 @@
 public class ConditionalOperators {
 
     public static void main(String[] args) {
-        // Test data
         String name1 = "Daria";
         String name2 = "Daria";
         int[] fiveNumbers = {194, 90, 45, 13, 195};
         int[] fourNumbers = {3, 8, 8, 9};
         int month = 12;
 
-        // Calling methods with test data
         compareNames(name1, name2);
         minMaxNumbers(fiveNumbers);
         seasons(month);
@@ -23,8 +21,8 @@ public class ConditionalOperators {
         }
     }
     public static void minMaxNumbers(int[] numbers) {
-        int min = numbers[0];
-        int max = numbers[0];
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
 
         for (int number : numbers) {
             if (number < min) {
