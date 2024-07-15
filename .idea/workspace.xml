@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="876c5bbe-5f67-4d6f-8a20-35a72a2ea9b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="876c5bbe-5f67-4d6f-8a20-35a72a2ea9b0" name="Changes" comment="FIX">
+      <change afterPath="$PROJECT_DIR$/src/Enigma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenAndOddNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConditionalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConditionalOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RandomNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConditionalOperators">
+  <component name="RunManager" selected="Application.Stars">
     <configuration name="ConditionalOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConditionalOperators" />
       <module name="LEARNING_AT" />
@@ -50,8 +48,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
+    <configuration name="Enigma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enigma" />
+      <module name="LEARNING_AT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenAndOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EvenAndOddNumbers" />
       <module name="LEARNING_AT" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,10 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stars" />
+        <item itemvalue="Application.EvenAndOddNumbers" />
+        <item itemvalue="Application.Enigma" />
         <item itemvalue="Application.ConditionalOperators" />
         <item itemvalue="Application.RandomNumber" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.Stars" />
       </list>
     </recent_temporary>
   </component>
@@ -89,6 +95,20 @@
       <option name="presentableId" value="Default" />
       <updated>1719148407134</updated>
     </task>
+    <task id="LOCAL-00001" summary="FIX">
+      <option name="closed" value="true" />
+      <created>1719918823036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719918823036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. RandomNumber.java - 1) Должно быть очень везкое обоснование, что бы делать глобальные переменные. 2) название метода с маленькой буквы. 3) не стоит присваивать значения глобальным переменным (this) - просто переменны внутри метода.&#10;2. ConditionalOperators - int min = Integer.MAX_VALUE; int max = Integer.MIN_VALUE;" />
+    <MESSAGE value="FIX" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX" />
   </component>
 </project>
